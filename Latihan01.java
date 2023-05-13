@@ -1,16 +1,17 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 package pertemuan04.latihan01;
-
-/**
- *
- * @author USER
- */
 public class Latihan01 {
-
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        String nama;
+        double pembayaran = 150000;
+        double uangPembeli = 200000;
+        double kembalian;
+           Pelanggan bayu = new Pelanggan();
+           
+           bayu.nama = "Bayu";
+           bayu.pembayaran = 150000;
+           bayu.uangPembeli = 200000;
+           bayu.kembalian = uangPembeli - pembayaran;
+           
+           bayu.struckBelanja();
     }
 }
